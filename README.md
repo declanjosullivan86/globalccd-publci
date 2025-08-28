@@ -39,6 +39,8 @@ This resource details the shift to recovery and regaining full independence:
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 Comprehensive Research Report - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **Electomagnetism_EMF_EMI/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 A Technical Analysis of Electromagnetism and Field Attenuation in Residential Environments.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **devices/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **multimeters/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF EMI Analysis and Device Readings.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF Research Plan and Taxonomic Framework.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 Research Plan - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
