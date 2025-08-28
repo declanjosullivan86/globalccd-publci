@@ -9,6 +9,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+     contents: write # <--- Add this line
     steps:
       # 1. Check out the repository code
       - name: Check out repository
