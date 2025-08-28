@@ -1,0 +1,65 @@
+name: Update README Folder Structure
+
+# Run this workflow automatically on every push to the main branch
+on:
+  push:
+    branches:
+      - main  # Or master, depending on your branch name
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Check out the repository code
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Generate the directory tree
+      - name: Generate folder structure
+        run: |
+          # Install the 'tree' command if it's not available
+          sudo apt-get install -y tree
+          
+          # Run 'tree' to generate the structure, ignoring specified folders and files.
+          # -L 3 limits the depth to 3 levels. Adjust as needed.
+          # -I '...' is a pattern to ignore files/directories.
+          tree -L 3 -I 'node_modules|.git|.github|README.md' > folder_structure.txt
+
+      # 3. Update the README.md file
+      - name: Update README with folder structure
+        run: |
+          # This script reads the content of folder_structure.txt and inserts it 
+          # between the markers in README.md.
+          python -c "
+          with open('README.md', 'r') as f:
+              readme_content = f.read()
+          
+          with open('folder_structure.txt', 'r') as f:
+              folder_structure = f.read()
+          
+          start_marker = ''
+          end_marker = ''
+          
+          start_index = readme_content.find(start_marker)
+          end_index = readme_content.find(end_marker)
+          
+          if start_index != -1 and end_index != -1:
+              new_readme_content = (
+                  readme_content[:start_index + len(start_marker)] +
+                  '\n\n```\n' + folder_structure + '```\n\n' +
+                  readme_content[end_index:]
+              )
+          
+              with open('README.md', 'w') as f:
+                  f.write(new_readme_content)
+          "
+
+      # 4. Commit the changes back to the repository
+      - name: Commit and push if README changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: auto-update folder structure"
+          file_pattern: README.md
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"
