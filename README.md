@@ -2,21 +2,27 @@
 
 ### Reclaiming Your Place
 
-This site is about more than documenting harassment; it's about shifting from an isolated existence to reclaiming a place within society. When the support of family, friends, or community is lost, life becomes about navigating a cold, unyielding system. This website is a direct response to that reality.
+This site is about more than documenting harassment; it's about shifting from an isolated existence to reclaiming a place within society. 
 
-After careful consideration, it's clear that no potential harm from public sharing could outweigh the benefits. The need to break free from this system and build a sense of community is paramount.
+- When the support of family, friends, or community is lost, life becomes about navigating a cold, unyielding system. This website is a direct response to that reality.
+
+- After careful consideration, it's clear that no potential harm from public sharing could outweigh the benefits. The need to break free from this system and build a sense of community is paramount.
 
 This resource details the shift to recovery and regaining full independence:
 
- * Move Beyond Isolation: By documenting your experience, you break the silence and connect with others who understand.
- * Create Accountability: Publicly sharing incidents helps to expose the issue and hold those in the system accountable.
- * Reclaim Your Life: Take back control from a system that has inserted itself into every part of your existence.
+- **Move Beyond Isolation:** By documenting your experience, you break the silence and connect with others who understand.
+
+- **Create Accountability:** Publicly sharing incidents helps to expose the issue and hold those in the system accountable.
+
+- **Reclaim Your Life:** Take back control from a system that has inserted itself into every part of your existence.
 
 ### Advocacy, Support & Resources for Victims
 
-This site is a public resource for sharing and documenting experiences with audio harassment. It provides a platform for individuals to report incidents, share evidence, and raise awareness. 
+- This site is a public resource for sharing and documenting experiences with audio harassment. 
 
-The goal is to build a comprehensive database of audio harassment incidents to help identify patterns, track perpetrators, and advocate for stronger protections against this form of abuse.
+- It provides a platform for individuals to report incidents, share evidence, and raise awareness. 
+
+- The goal is to build a comprehensive database of audio harassment incidents to help identify patterns, track perpetrators, and advocate for stronger protections against this form of abuse.
 
 ## 📂 Project Structure
 
