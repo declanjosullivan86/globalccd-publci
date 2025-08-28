@@ -9,7 +9,25 @@ This site is a public resource for sharing and documenting experiences with audi
 ## 📂 Project Structure
 
 <!-- FOLDER_STRUCTURE_START -->
-*The folder structure table will be generated here automatically.*
+| Path | Type |
+|---|---|
+| 📄 CNAME | File |
+| 📄 cname | File |
+| 📂 **notes/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;📂 **2025/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **08/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **27/** | Directory |
+| 📂 **research/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 Comprehensive Research Report - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📂 **Electomagnetism_EMF_EMI/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 A Technical Analysis of Electromagnetism and Field Attenuation in Residential Environments.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF EMI Analysis and Device Readings.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF Research Plan and Taxonomic Framework.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 Research Plan - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive Research Request Template.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Electrical Wiring Domain-Specific Research Framework.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 v2_Enhanced Comprehensive Research Framework with Quality Assessment.md | File |
+
 <!-- FOLDER_STRUCTURE_END -->
 
 ## Installation
