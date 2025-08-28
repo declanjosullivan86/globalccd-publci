@@ -2,6 +2,10 @@
 
 This site is a public resource for sharing and documenting experiences with audio harassment. It provides a platform for individuals to report incidents, share evidence, and raise awareness. The goal is to build a comprehensive database of audio harassment incidents to help identify patterns, track perpetrators, and advocate for stronger protections against this form of abuse.
 
+## 📂 Folder Structure
+
+## Installation
+
 ## Purpose
 
 Leveraging public sharing is a powerful way to diminish the impact of intimidation and stress caused by audio harassment. 
