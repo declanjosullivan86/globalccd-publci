@@ -2,6 +2,7 @@
 
 Yes, multimeters—including models like the Crenova MS8233D—are susceptible to interference from both **EMF** (electromagnetic fields) and **EMI** (electromagnetic interference). While a basic digital multimeter isn't specifically designed for measuring these fields, their presence can significantly impact the accuracy of its readings.
 
+https://www.amazon.co.uk/Crenova-Multimeter-Auto-Ranging-Resistance-Continuity/dp/B0967M4J1C?ref_=ast_slp_dp&th=1&psc=1
 ---
 
 ### How EMF and EMI Affect a Multimeter
