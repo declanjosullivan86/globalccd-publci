@@ -9,6 +9,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # Add this permissions block to allow the action to write to the repository
+    permissions:
+      contents: write
+
     steps:
       # 1. Check out the repository code so the action can access it
       - name: Checkout Repository
@@ -35,6 +40,7 @@ jobs:
               items = sorted(os.listdir(directory))
               
               for item in items:
+                  # Skip items in the ignore list
                   if item in IGNORE_LIST:
                       continue
                   
@@ -61,7 +67,7 @@ jobs:
           with open('README.md', 'r', encoding='utf-8') as f:
               readme_content = f.read()
 
-          # Find the markers
+          # Define the markers to find in the README
           start_marker = '<!-- FOLDER_STRUCTURE_START -->'
           end_marker = '<!-- FOLDER_STRUCTURE_END -->'
           
