@@ -38,9 +38,9 @@ jobs:
           
           with open('folder_structure.txt', 'r') as f:
               folder_structure = f.read()
-          
-          start_marker = ''
-          end_marker = ''
+
+          start_marker = '## 📂 Folder Structure'
+          end_marker = '## Installation'
           
           start_index = readme_content.find(start_marker)
           end_index = readme_content.find(end_marker)
