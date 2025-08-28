@@ -1,0 +1,94 @@
+name: Update README Folder Structure Table
+
+# This action runs on every push to the 'main' branch
+on:
+  push:
+    branches:
+      - main # Change to 'master' if that's your default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Check out the repository code so the action can access it
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 2. Run the Python script to generate the folder structure as a Markdown table
+      - name: Generate Folder Structure Table
+        run: |
+          python -c "
+          import os
+
+          # --- Configuration ---
+          # Add directories or files you want to ignore here
+          IGNORE_LIST = ['.git', '.github', 'README.md', 'node_modules']
+          # Set the maximum depth to scan
+          MAX_LEVEL = 3
+          # --- End Configuration ---
+
+          def generate_table(directory, level=0):
+              if level > MAX_LEVEL:
+                  return ''
+              
+              table_content = ''
+              items = sorted(os.listdir(directory))
+              
+              for item in items:
+                  if item in IGNORE_LIST:
+                      continue
+                  
+                  path = os.path.join(directory, item)
+                  indent = '&nbsp;' * 4 * level
+                  
+                  if os.path.isdir(path):
+                      # It's a directory
+                      table_content += f'| {indent}📂 **{item}/** | Directory |\n'
+                      table_content += generate_table(path, level + 1)
+                  else:
+                      # It's a file
+                      table_content += f'| {indent}📄 {item} | File |\n'
+              
+              return table_content
+
+          # Start generation from the root directory '.'
+          folder_structure_table = generate_table('.')
+
+          # Prepare the full table with headers
+          full_table = '| Path | Type |\n|---|---|\n' + folder_structure_table
+
+          # Read the existing README content
+          with open('README.md', 'r', encoding='utf-8') as f:
+              readme_content = f.read()
+
+          # Find the markers
+          start_marker = '<!-- FOLDER_STRUCTURE_START -->'
+          end_marker = '<!-- FOLDER_STRUCTURE_END -->'
+          
+          start_index = readme_content.find(start_marker)
+          end_index = readme_content.find(end_marker)
+
+          # Replace the content between the markers
+          if start_index != -1 and end_index != -1:
+              new_readme = (
+                  readme_content[:start_index + len(start_marker)] +
+                  '\n' + full_table + '\n' +
+                  readme_content[end_index:]
+              )
+              
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_readme)
+              print('README.md updated successfully.')
+          else:
+              print('Markers not found in README.md. Skipping update.')
+          "
+
+      # 3. Commit the updated README.md back to the repository
+      - name: Commit and Push README Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(readme): auto-update folder structure table"
+          file_pattern: README.md
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"
