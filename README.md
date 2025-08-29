@@ -58,10 +58,9 @@ This resource details the shift to recovery and regaining full independence:
 | 📄 cname | File |
 | 📂 **countermeasures/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **input_monitoring/** | Directory |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **feeback_loops/** | Directory |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 setup.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **feedback_loops/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄  explanation.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 setup.md | File |
 | 📂 **notes/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **2025/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **08/** | Directory |
