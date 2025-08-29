@@ -49,9 +49,9 @@ This resource details the shift to recovery and regaining full independence:
 
 - The goal is to build a comprehensive database of audio harassment incidents to help identify patterns, track perpetrators, and advocate for stronger protections against this form of abuse.
 
+
 ## 📂 Project Structure
 
-<!-- FOLDER_STRUCTURE_START -->
 | Path | Type |
 |---|---|
 | 📄 CNAME | File |
@@ -63,7 +63,7 @@ This resource details the shift to recovery and regaining full independence:
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 countermeasures.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **input_monitoring/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **feedback_loops/** | Directory |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄  explanation.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 explanation.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 setup.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 input_monitoring.md | File |
 | 📂 **notes/** | Directory |
@@ -85,14 +85,13 @@ This resource details the shift to recovery and regaining full independence:
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF Research Plan and Taxonomic Framework.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 Research Plan - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **automation_ai/** | Directory |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 The Generative AI Model Landscape - A 2025 Expert Report.md
-. | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 The Generative AI Model Landscape - A 2025 Expert Report.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 generative_platforms.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive Research Request Template.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Electrical Wiring Domain-Specific Research Framework.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v2_Enhanced Comprehensive Research Framework with Quality Assessment.md | File |
 
-<!-- FOLDER_STRUCTURE_END -->
+
 
 ## Installation
 
