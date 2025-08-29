@@ -55,6 +55,7 @@ This resource details the shift to recovery and regaining full independence:
 | Path | Type |
 |---|---|
 | 📄 CNAME | File |
+| 📄 Paul-Elder Critical Thinking Breakdown: The Gresham and Cathal Situation.md | File |
 | 📄 Proofread - Update the Paul–Elder Critical Thinkin....pdf | File |
 | 📄 cloudflare_pages.yml | File |
 | 📄 cname | File |
