@@ -4,6 +4,27 @@
 | :---------- | :------ | :------------------ | :----------------- | :------------------------------------------------------- |
 | In Progress | 1.0.1   | *Auto-updated by bot* | Gemini             | [Link to Conversation](https://gemini.google.com/...) |
 
+Acoustic harassment and violence are methods abusers use to achieve a shocking negative impact. They exploit various systems for personal gain, ensuring others lose. This abuse affects individuals on both a personal and professional level, harming their education, health, and social life.
+
+### System Abuse and Its Impact
+Abusers create negative impacts by targeting individuals and the systems they depend on. This can be seen across various parts of a person's life, from their education to their family relationships.
+
+| System Name | Professional Context | Personal Context |
+| :--- | :--- | :--- |
+| Educational | **Academic Misconduct:** Bypassing invigilators to gain an unfair academic advantage, which impedes the progress of other students. | **Harassment and Assault:** Stalking, harassing, and assaulting victims to disrupt their performance in ongoing assessments and exams. |
+| Medical | **Misconduct:** Undermining research, falsifying data, or intentionally preventing citizens from accessing medical care, a fundamental right. | **Inducing Illness:** Causing confusion and illness to control a victim's access to doctors and medication, while falsely representing their own medical knowledge. |
+| Familial | **Career Gain:** Abusing a victim's family by intentionally creating social isolation to sever their support network for professional gain. | **Lifelong Abuse:** Creating extremely difficult situations for a victim, making it challenging for them to separate acts of harassment, stalking, and assault from everyday life. |
+
+
+| System Name | Professional Context | Personal Context |
+| :--- | :--- | :--- |
+| **Legal/Justice System** | Manipulating legal proceedings by using knowledge of research methods to discredit evidence or expert testimony. A medical professional might also influence legal professionals by using their perceived authority to misrepresent a victim's mental or physical health. | Filing frivolous lawsuits or making false accusations by leveraging a professional reputation to make their claims appear more credible. This can also include using knowledge of legal procedures to prolong cases and cause financial and emotional distress for the victim. |
+| **Financial System** | Exploiting financial regulations or loopholes by using their understanding of complex systems to engage in fraudulent activities like embezzlement or insider trading. They might also leverage their professional network to gain unfair financial advantages. | Engaging in financial abuse by using a professional reputation or specialized knowledge to gain control of a victim's finances. This can include running up debt in the victim's name or isolating them from financial resources by misrepresenting their financial literacy. |
+| **Political System** | Using their academic or medical authority to influence public policy for personal gain or to target a victim. This could involve lobbying for laws that benefit their research or career, or using state resources to silence critics under the guise of public health or safety concerns. | Subjecting individuals to politically motivated harassment by using their professional standing to unfairly deny the victim access to public services or to misuse their personal information. |
+| **Workplace System** | Abusing professional authority by creating a hostile work environment or taking credit for others' work. A medical academic, for example, might sabotage a colleague's research, misrepresent their findings, or use their position to block a colleague's career advancement. | Using specialized knowledge to spread rumors, isolate the victim from colleagues, or sabotage their projects. This can also be a form of professional stalking where the perpetrator leverages their position and knowledge to make the victim's work life unbearable. |
+| **Religious System** | Using their position of authority and perceived intelligence to manipulate religious institutions for personal gain. This could involve influencing leaders or communities by misrepresenting scientific or medical facts to justify their actions or beliefs. | Using their professional background to control or manipulate a victim by claiming their actions are justified by a higher authority or a scientific/medical necessity. They can also use religious communities to enforce a victim's submission by twisting religious teachings and beliefs. |
+
+
 ### Reclaiming Your Place
 
 This site is about more than documenting harassment; it's about shifting from an isolated existence to reclaiming a place within society. 
