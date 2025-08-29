@@ -82,6 +82,8 @@ This resource details the shift to recovery and regaining full independence:
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF EMI Analysis and Device Readings.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF Research Plan and Taxonomic Framework.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 Research Plan - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📂 **automation_ai/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 generative_platforms.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive Research Request Template.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Electrical Wiring Domain-Specific Research Framework.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v2_Enhanced Comprehensive Research Framework with Quality Assessment.md | File |
