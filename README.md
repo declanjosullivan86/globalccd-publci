@@ -54,7 +54,6 @@ This resource details the shift to recovery and regaining full independence:
 <!-- FOLDER_STRUCTURE_START -->
 | Path | Type |
 |---|---|
-| 📄 CNAME | File |
 | 📄 cname | File |
 | 📂 **countermeasures/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **input_monitoring/** | Directory |
