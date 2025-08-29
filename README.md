@@ -58,6 +58,7 @@ This resource details the shift to recovery and regaining full independence:
 | 📄 cname | File |
 | 📂 **countermeasures/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 INPUT_MONITORING_FEEDBACK_LOOPS.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 Input Monitoring - Feedback Loops - Explanation.md | File |
 | 📂 **notes/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **2025/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **08/** | Directory |
