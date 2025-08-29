@@ -57,8 +57,10 @@ This resource details the shift to recovery and regaining full independence:
 | 📄 CNAME | File |
 | 📄 cname | File |
 | 📂 **countermeasures/** | Directory |
-| &nbsp;&nbsp;&nbsp;&nbsp;📄 INPUT_MONITORING_FEEDBACK_LOOPS_SETUP.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 Input Monitoring - Feedback Loops - Explanation.md | File |
+| &nbsp;&nbsp;&nbsp;&nbsp;📂 **input_monitoring/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **feeback_loops/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 setup.md | File |
 | 📂 **notes/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **2025/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **08/** | Directory |
