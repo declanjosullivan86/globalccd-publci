@@ -1,3 +1,7 @@
+| Status      | Version | Last Updated        | Generative AI Tool | Conversation History                                     |
+| :---------- | :------ | :------------------ | :----------------- | :------------------------------------------------------- |
+| In Progress | 1.0.1   | *Auto-updated by bot* | Gemini             | [Link to Conversation](https://gemini.google.com/...) |
+
 # Datasets for EMF/EMI Mapping in Residential Settings
 
 Here’s a focused, analyst-grade report on **Datasets for EMF/EMI mapping in residential settings**, moving top-down from the big picture to tactical details and sources.
