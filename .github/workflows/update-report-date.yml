@@ -1,0 +1,39 @@
+name: Update Report Metadata
+
+on:
+  push:
+    branches:
+      - main # Or whichever is your primary branch
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository's code
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      # Step 2: Update the 'Last Updated' field in the report file
+      - name: Update report timestamp
+        # This command finds the line with "Last Updated" and replaces the date
+        # It uses the timestamp from the latest commit
+        run: |
+          # Get the timestamp of the latest commit
+          TIMESTAMP=$(git log -1 --format=%cd --date=iso-strict)
+          
+          # Specify the markdown file to update
+          REPORT_FILE="README.md"
+          
+          # Use sed to find the line and replace the date placeholder
+          # This works on both macOS and Linux for compatibility
+          sed -i.bak "s|\*Auto-updated by bot\*|$TIMESTAMP|g" $REPORT_FILE && rm ${REPORT_FILE}.bak
+
+      # Step 3: Commit and push the updated file
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: Update report timestamp"
+          file_pattern: "README.md" # Ensure this matches your report file
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
