@@ -1,5 +1,9 @@
 # Audio Harassment Details - Public Share
 
+| Status      | Version | Last Updated        | Generative AI Tool | Conversation History                                     |
+| :---------- | :------ | :------------------ | :----------------- | :------------------------------------------------------- |
+| In Progress | 1.0.1   | *Auto-updated by bot* | Gemini             | [Link to Conversation](https://gemini.google.com/...) |
+
 ### Reclaiming Your Place
 
 This site is about more than documenting harassment; it's about shifting from an isolated existence to reclaiming a place within society. 
