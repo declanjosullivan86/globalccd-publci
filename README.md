@@ -55,6 +55,7 @@ This resource details the shift to recovery and regaining full independence:
 | Path | Type |
 |---|---|
 | 📄 CNAME | File |
+| 📄 cloudflare_pages.yml | File |
 | 📄 cname | File |
 | 📂 **countermeasures/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 countermeasures.md | File |
