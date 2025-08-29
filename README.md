@@ -83,6 +83,8 @@ This resource details the shift to recovery and regaining full independence:
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive EMF Research Plan and Taxonomic Framework.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 Research Plan - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **automation_ai/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 The Generative AI Model Landscape - A 2025 Expert Report.md
+. | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 generative_platforms.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Comprehensive Research Request Template.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 v1_Electrical Wiring Domain-Specific Research Framework.md | File |
