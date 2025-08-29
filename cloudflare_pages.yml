@@ -1,0 +1,2 @@
+- name: GitHub Action for Cloudflare Pages
+  uses: andykenward/github-actions-cloudflare-pages@v3.0.1
