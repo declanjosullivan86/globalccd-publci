@@ -1,4 +1,8 @@
-### **Research Report: Datasets for Electromagnetic Field (EMF) and Electromagnetic Interference (EMI) Mapping in Residential Settings**
+| Status      | Version | Last Updated        | Generative AI Tool | Conversation History                                     |
+| :---------- | :------ | :------------------ | :----------------- | :------------------------------------------------------- |
+| In Progress | 1.0.1   | *Auto-updated by bot* | Gemini             | [Link to Conversation](https://gemini.google.com/...) |
+
+# **Research Report: Datasets for Electromagnetic Field (EMF) and Electromagnetic Interference (EMI) Mapping in Residential Settings**
 
 ---
 
