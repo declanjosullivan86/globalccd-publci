@@ -1,0 +1,34 @@
+run-name: "☁️ CF › Deploy"
+name: "☁️ CF › Deploy"
+
+on: [push]
+
+jobs:
+  job-publish:
+      name: >-
+        📦 Publish to Cloudflare
+      runs-on: ubuntu-latest
+      permissions:
+          contents: read
+          deployments: write
+      steps:
+
+        - name: "☑️ Checkout"
+          id: task_publish_checkout
+          uses: actions/checkout@v4
+
+        - name: "☁️ Publish to Cloudflare Pages"
+          id: task_publish_push
+          uses: aetherinox/cloudflare-publish-action@latest
+          with:
+              apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}       # Cloudflare API Token at https://dash.cloudflare.com/profile/api-tokens
+              accountId: ACCOUNT_ID                               # Cloudflare account ID available on right side of CF website
+              projectName: PROJECT_NAME                           # Project name assigned at creation. view on workers-and-pages section of CF website
+              directory: BUILD_OUTPUT_FOLDER                      # Output directory for built website
+              gitHubToken: ${{ secrets.GITHUB_TOKEN }}            # Optional: Enable this if you want to have GitHub Deployments triggered
+              branch: main                                        # Branch website published to; by default this will be the branch which triggered this workflow
+              workingDirectory: my-site                           # Working directory
+              wranglerVersion: '3'                                # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
+              commitMsg: 'Your commit message'                    # Optional: Commit message to attach
+              commitDirty: false                                  # Optional: Whether or not the workspace should be considered dirty for this deployment
+              skipCaching: false                                  # Optional: Skip asset caching which speeds up builds
