@@ -66,6 +66,7 @@ This resource details the shift to recovery and regaining full independence:
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **2025/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **08/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **27/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 2025.md | File |
 | 📂 **research/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 Comprehensive Research Report - Legal Analysis of Audio Harassment and Acoustic Violence.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **Electomagnetism_EMF_EMI/** | Directory |
