@@ -65,6 +65,7 @@ This resource details the shift to recovery and regaining full independence:
 | 📂 **notes/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;📂 **2025/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **08/** | Directory |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 08.md | File |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **27/** | Directory |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 2025.md | File |
 | 📂 **research/** | Directory |
